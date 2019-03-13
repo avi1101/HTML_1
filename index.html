@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" href="images/tabimg.PNG">
 <link rel="stylesheet" type="text/css" href="style.css" />
 <style>
-        body {
-        background-color: #DF013A
-        }
         text{
         background-color: darkgoldenrod
         }
@@ -78,9 +76,9 @@ In 2015 after his military service he managed multiple teams in various fields b
       <a class="next" onclick="plusSlides(1)" style="color:black">&#10095;</a>
     </div>
     <div style="text-align:center">
-            <span class="place" onclick="currentSlide(1)"></span> 
-            <span class="place" onclick="currentSlide(2)"></span> 
-            <span class="place" onclick="currentSlide(3)"></span> 
+            <span class="place" onclick="currentSlide(1)"></span>
+            <span class="place" onclick="currentSlide(2)"></span>
+            <span class="place" onclick="currentSlide(3)"></span>
             <span class="place" onclick="currentSlide(4)"></span>
             <span class="place" onclick="currentSlide(5)"></span>
             <span class="place" onclick="currentSlide(6)"></span>
@@ -91,30 +89,30 @@ In 2015 after his military service he managed multiple teams in various fields b
     <script>
             var slideIndex = 1;
         showSlides(slideIndex);
-        
+
         // Next/previous controls
         function plusSlides(n) {
           showSlides(slideIndex += n);
         }
-        
+
         // Thumbnail image controls
         function currentSlide(n) {
           showSlides(slideIndex = n);
         }
-        
+
         function showSlides(n) {
           var i;
           var slides = document.getElementsByClassName("slideImage");
           var places = document.getElementsByClassName("place");
-          if (n > slides.length) {slideIndex = 1} 
+          if (n > slides.length) {slideIndex = 1}
           if (n < 1) {slideIndex = slides.length}
           for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none"; 
+              slides[i].style.display = "none";
           }
           for (i = 0; i < places.length; i++) {
             places[i].className = places[i].className.replace(" active", "");
           }
-          slides[slideIndex-1].style.display = "block"; 
+          slides[slideIndex-1].style.display = "block";
           places[slideIndex-1].className += " active";
         }
             </script>
@@ -122,7 +120,7 @@ In 2015 after his military service he managed multiple teams in various fields b
 
 
 <section align="center" id="playlist" class="section">
-<h2>His Playlist</h2>    
+<h2>His Playlist</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0Vyj1C8ogtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xw2RXCFGiZQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
@@ -142,26 +140,142 @@ In 2015 after his military service he managed multiple teams in various fields b
 
 <section id="spa" class="section">
         <h2 align="center">Q&A</h2>
+<H3 align="center">Answer 1 -  web1.0 & web2.0 & web3.0 :</H3>
+        <b align = "center">Web 1.0 </b><br/><br/>
+        Web 1.0 refers to the first stage of the World Wide Web evolution. Earlier,<br/> there were only few content creators in Web 1.0 with the huge majority of users who are consumers of content.<br/>
+        Personal web pages were common, consisting mainly of static pages hosted on ISP-run web servers, or on free web hosting services.
 
-        <h4 id="1"><u>Web 1.0</u></h4>
-        
-        <p>It is the “readable” phrase of the World Wide Web with flat data. In Web 1.0, there is only limited interaction between sites and web users. <br>
-        Web 1.0 is simply an information portal where users passively receive information without being given the opportunity to post reviews, comments, and feedback.</p>
-      
-        <h4 id="2"><u>Web 2.0</u></h4>
-        <p>It is the “writable” phrase of the World Wide Web with interactive data. Unlike Web 1.0, Web 2.0 facilitates interaction between web users and sites, <br>
-          so it allows users to interact more freely with each other. Web 2.0 encourages participation, collaboration, and information sharing. <br>
-          Examples of Web 2.0 applications are Youtube, Wiki, Flickr, Facebook, and so on.</p>
-      
-        <h4 id="3"><u>Web 3.0</u></h4>
-        <p>It is the “executable” phrase of Word Wide Web with dynamic applications, interactive services, and “machine-to-machine” interaction. <br>
-          Web 3.0 is a semantic web which refers to the future. In Web 3.0, computers can interpret information like humans and intelligently generate <br>
-          and distribute useful content tailored to the needs of users. One example of Web 3.0 is Tivo, a digital video recorder. 
-            Its recording program <br>can search the web and read what it finds to you based on your preferences.</p>
-          <br/>
-      
+        In Web 1.0 advertisements on websites while surfing the internet is banned.<br/>
+        Also, in Web 1.0, Ofoto is an online digital photography website, on which user could store, share, view and print digital pictures.<br/>
+        Web 1.0 is a content delivery network (CDN) which enables to showcase the piece of information on the websites.<br/>
+        It can be used as personal websites. It costs to user as per pages viewed.<br/>
+        It has directories which enable user to retrieve a particular piece of information.
+
+        Four design essentials of a Web 1.0 site include:
+        Static pages.<br/>
+        Content is served from the server’s file-system.<br/>
+        Pages built using Server Side Includes or Common Gateway Interface (CGI).<br/>
+        Frames and Tables used to position and align the elements on a page.<br/>
+        <br/><br/><b align = "center">Web 2.0 </b><br/><br/>
+        Web 2.0 refers to world wide website which highlight user-generated content, usability and interoperability for end users.<br/>
+        Web 2.0 is also called participative social web.<br/>
+        It does not refer to a modification to any technical specification, but to modify in the way Web pages are designed and used.<br/>
+        The transition is beneficial but it does not seem that when the changes are occurred.<br/>
+        An interaction and collaboration with each other is allowed by Web 2.0 in a social media dialogue as creator of user-generated content in a virtual community.<br/>
+        Web 1.0 is enhanced version of Web 2.0.
+
+        The web browser technologies are used in Web 2.0 development and it includes AJAX and JavaScript frameworks.<br/>
+        Recently, AJAX and JavaScript frameworks have become a very popular means of creating web 2.0 sites.
+
+        Five major features of Web 2.0 –
+        Free sorting of information, permits users to retrieve and classify the information collectively.
+        Dynamic content that is responsive to user input.
+        Information flows between site owner and site users by means of evaluation & online commenting.
+        Developed APIs to allow self-usage, such as by a software application.
+        Web access leads to concern different, from the traditional Internet user base to a wider variety of users.
+
+        <br/><br/> <b align = "center">Web 3.0 </b><br/><br/>
+        It refers the evolution of web utilization and interaction which includes altering the Web into a database.<br/>
+        In enables the upgradation of back-end of the web, after a long time of focus on the front-end (Web 2.0 has mainly been about AJAX, tagging, and another front-end user-experience innovation).<br/>
+        Web 3.0 is a term which is used to describe many evolutions of web usage and interaction among several paths.<br/>
+        In this, data isn’t owned but instead shared, where services show different views for the same web / the same data.
+
+        The Semantic Web (3.0) promises to establish “the world’s information” in more reasonable way than Google can ever attain with their existing engine schema.<br/>
+        This is particularly true from the perspective of machine conception as opposed to human understanding.<br/>
+        The Semantic Web necessitates the use of a declarative ontological language like OWL to produce domain-specific ontologies that machines can use to reason about information and make new conclusions, not simply match keywords.
+
+
+        <p><center></p>
+        <table style="width:70%">
+        <thead>
+        <tr>
+        <th>Web 1.0</th>
+        <th>Web 2.0</th>
+        <th>Web 3.0</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Mostly Read-Only</td>
+        <td>Wildly Read-Write</td>
+        <td>Portable and Personal</td>
+        </tr>
+        <tr>
+        <td>Company Focus</td>
+        <td>Community Focus</td>
+        <td>Individual Focus</td>
+        </tr>
+        <tr>
+        <td>Home Pages</td>
+        <td>Blogs / Wikis</td>
+        <td>Live-streams / Waves</td>
+        </tr>
+        <tr>
+        <td>Owning Content</td>
+        <td>Sharing Content</td>
+        <td>Consolidating Content </td>
+        </tr>
+        <tr>
+        <td>Web Forms</td>
+        <td>Web Applications</td>
+        <td>Smart Applications</td>
+        </tr>
+        <tr>
+        <td>Directories</td>
+        <td>Tagging</td>
+        <td>User Behaviour</td>
+        </tr>
+        <tr>
+        <td>Page Views</td>
+        <td>Cost Per Click</td>
+        <td>User Engagement</td>
+        </tr>
+        <tr>
+        <td>Banner Advertising</td>
+        <td>Interactive Advertising</td>
+        <td>Behavioural Advertising </td>
+        </tr>
+        <tr>
+        <td>Britannica Online</td>
+        <td>Wikipedia</td>
+        <td>The Semantic Web</td>
+        </tr>
+        <tr>
+        <td>HTML/Portals</td>
+        <td>XML / RSS</td>
+        <td>RDF / RDFS / OWL</td>
+        </tr>
+        </tbody>
+        </table>
+        <p></center></p>
+
 <br/>
 <br/>
+      <br/><br/><b align = "center">Web 2.0 </b><br/><br/>
+      <H3 align="center">Answer 2 -  Use Cases : self diagnosing/ symptoms checking online </H3>
+      <br>
+    Web 1.0 :
+    <ol align="left">
+      <li>Go to an index site of a medicl website</li>
+      <li>Search the list of diseases the include my symptoms.</li>
+      <li>Check if i have the other symptom of the disease.</li>
+    </ol>
+    web 2.0 :
+    <ol align="left">
+        <li>Search a search engine for my symptoms.</li>
+        <li>Choose a link to a medical website that has a disease with my symptoms, from the list of search results.</li>
+        <li>Post on the forum, looking for medical advise.</li>
+      </ol>
+    web 3.0 :
+    <ol align="left">
+        <li>Ask a personal assistant, using speech, to find a diagnosing for my symptoms.</li>
+        <li>The assistant searches the web and analyses the results.</li>
+        <li>The assistant recommends pages with diagnosis.</li>
+        <li>The assistant sets me a doctor appointment.</li>
+      </ol>
+  </p>
+
+
 <br/>
 </section>
 
@@ -192,7 +306,7 @@ In 2015 after his military service he managed multiple teams in various fields b
 $(function(){
   $("#nav a").click(function(e){
     e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
+    $('html,body').scrollTo(this.hash,this.hash);
   });
 });
 </script>
